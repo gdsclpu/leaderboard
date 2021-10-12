@@ -1,0 +1,25 @@
+{
+  "leaderBoardData": [
+    {
+      "name": "Test Name",
+      "badges": {
+        "track1": 4,
+        "track2": 6
+      }
+    },
+    {
+      "name": "Test Name 2",
+      "badges": {
+        "track1": 6,
+        "track2": 6
+      }
+    },
+    {
+      "name": "Test Name 3",
+      "badges": {
+        "track1": 0,
+        "track2": 2
+      }
+    }
+  ]
+}
