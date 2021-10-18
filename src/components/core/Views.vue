@@ -1,7 +1,7 @@
 <template>
   <v-container
     fluid
-    class="pa-0 ma-0"
+    class="pa-0 mb-5 pb-5"
     :class="this.$vuetify.theme.dark == true ? 'black' : 'white'"
   >
     <v-slide-y-reverse-transition>
@@ -21,7 +21,6 @@ export default {
   created() {
     this.show = true;
   },
-  methods: {
-  },
+  methods: {},
 };
 </script>
