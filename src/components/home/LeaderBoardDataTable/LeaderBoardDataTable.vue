@@ -43,7 +43,8 @@ export default {
     addFinalData() {
       const dta = this.$props.data.map((dta, index) => {
         dta["rank"] = index + 1;
-        dta.badges["total"] = dta.badges.track1 + dta.badges.track2;
+        dta.badges["total"] =
+          parseInt(dta.badges.track1) + parseInt(dta.badges.track2);
         dta.badges["remaining"] =
           6 - dta.badges.track1 + (6 - dta.badges.track2);
         return dta;
